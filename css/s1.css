@@ -1,0 +1,155 @@
+html{
+    background-image: url("../assets/1.jfif");
+}
+header{
+    text-align: center;
+    opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+.glow {
+  font-size: 23px;
+  color: black;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px blanchedalmond, 0 0 20px palevioletred, 0 0 30px yellowgreen, 0 0 40px yellow, 0 0 50px sandybrown, 0 0 60px peachpuff, 0 0 70px tan;
+  }
+  
+  to {
+    text-shadow: 0 0 20px skyblue, 0 0 30px darkturquoise, 0 0 40px cadetblue, 0 0 50px darkslateblue, 0 0 60px darkorchid, 0 0 70px darkgoldenrod, 0 0 80px #ff4da6;
+  }
+}
+nav{
+    background-color: blanchedalmond;
+    font-size: 25px;
+    padding-left: 20px;
+    font-family: cursive;
+    animation: mfs 3s;
+    animation-iteration-count: 10;
+    text-shadow: 1px 2px 5px;
+}
+@keyframes mfs
+{
+    from {background:blanchedalmond;}
+    to{background: yellow;}
+}
+h2{
+    border: 2px solid darkslateblue;
+    border-width: 50%;
+    border-radius: 20px;
+    font-family: cursive;
+    font-style: italic;
+    color: darkslateblue;
+    font-size: 20px;
+    animation: mf 3s;
+    animation-iteration-count: 10;
+}
+@keyframes mf
+{
+    from {color:darkslateblue; border: 2px solid darkslateblue; border-radius: 0px;}
+    to{color: darkgoldenrod; border: 2px solid darkgoldenrod; border-radius: 20px;}
+}
+
+.ijk {
+  opacity: 0.5;
+  filter: alpha(opacity=50); 
+}
+
+.ijk:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+a:link,a:visited{
+    text-decoration: none;
+    color: cornflowerblue;
+    background-color: none;
+}
+a:hover, a:active{
+    text-decoration:underline;
+    color: darkblue;
+    background-color: snow; 
+    font-size: 25.5px;
+    
+}
+
+p{
+    font-family: cursive;
+    font-size: 20px;
+    font-style: oblique;
+}
+footer{
+
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height:80px;
+   background-color: gray;
+   color: white;
+   text-align: center;
+}
+
+.l1,.r1{
+    height:100%;
+    width:40%;
+}
+
+            .l1 { 
+                float:left;   
+            }  
+            .m1{
+                float:left;
+                width: 20%;
+                height:100%;
+            }
+            .r1{ 
+                float:right;      
+            } 
+
+.ll,.k,.mm,.n,.rr{
+    height:100%;
+    width:20%;
+}
+
+            
+            .ll { 
+                float:left;   
+            } 
+            .k { 
+                float:left;   
+            }
+            .mm{ 
+                float:left;  
+            }
+            .n { 
+                float:left;
+                   
+            }  
+            .rr{ 
+                float:right;      
+            } 
+
+
+.l,.r{
+    height:100%;
+    width:25%;
+}
+
+            .l { 
+                float:left;   
+                
+            } 
+            .m{ 
+                float:left;  
+                height:100%;
+                width:50%;
+            } 
+            .r{ 
+                float:right; 
+                
+            } 
